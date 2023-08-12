@@ -1,0 +1,36 @@
+.section-new {
+    background-color: hsl(var(--very-dark-blue));
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.section-new > h2 {
+    font-size: 32px;
+    color: hsl(var(--soft-orange));
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+.section-new > article {
+    padding-bottom: 2em;
+}
+.section-new > article:not(:first-of-type) {
+    padding-top: 1em;
+}
+.section-new > article:not(:first-child, :last-child) {
+    border-bottom: 1px solid hsl(var(--dark-grayish-blue));
+}
+.section-new > article > h3 {
+    color: hsl(var(--off-white));
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.section-new > article > p {
+    line-height: 1.5em;
+    color: hsl(var(--off-white));
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+:root {
+    
+    /* HSL Colour variables */
+    /* Primary */
+    --soft-orange: 35, 77%, 62%;
+    --soft-red: 5, 85%, 63%;
+    
+    /* Neutral */
+    --off-white: 36, 100%, 99%;
+    --grayish-blue: 233, 8%, 79%;
+    --dark-grayish-blue: 236, 13%, 42%;
+    --very-dark-blue: 240, 100%, 5%;
+    
+    /* Typography */
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: hsl(var(--dark-grayish-blue));
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hidden {
+    display: none;
+}
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+h3 {
+    color: hsl(var(--very-dark-blue))
+}

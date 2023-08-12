@@ -4,9 +4,6 @@ header {
     align-items: center;
 }
 
-header > .site-title > h1 {
-    display: none;
-}
 .site-title {
     padding-top: 1.8em;
     padding-bottom: 1.8em;

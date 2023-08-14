@@ -30,6 +30,12 @@
     position: absolute;
     top: -2em;
 }
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 h3 {
     color: hsl(var(--very-dark-blue))
 }

@@ -1,6 +1,9 @@
 .section-top {
     margin-top: 2.3em;
 }
+.section-top a:hover {
+    color: hsl(var(--soft-red));
+}
 .section-top ol {
     display: flex;
     flex-direction: column;

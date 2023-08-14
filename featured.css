@@ -16,8 +16,11 @@
     margin-top: 0.5em;
     margin-bottom: 0.3em;
 }
-.section-featured > article > p {
+.section-featured p {
     line-height: 1.7em;
+}
+.section-featured a:hover {
+    background-color: hsl(var(--very-dark-blue)) !important;
 }
 .section-featured :is(a, a:visited) {
     margin-top: 2em;

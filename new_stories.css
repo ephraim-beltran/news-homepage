@@ -28,6 +28,9 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+.section-new a:hover {
+    color: hsl(var(--soft-orange));
+}
 .section-new p {
     line-height: 1.5em;
     color: hsl(var(--off-white));

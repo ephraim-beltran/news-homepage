@@ -29,6 +29,9 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+nav a:hover {
+    color: hsl(var(--soft-red));
+}
 nav > ul {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
-.article-top {
+.section-top {
     margin-top: 2.3em;
 }
-.article-top ol {
+.section-top ol {
     display: flex;
     flex-direction: column;
     row-gap: 2em;
@@ -38,4 +38,18 @@
 .small-card-with-image img {
     grid-area: image;
     width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+    .section-top {
+        margin: 2.8em 0;
+        justify-content: space-between;
+    }
+    .section-top ol {
+        flex-direction: row;
+        column-gap: 1.8em;
+    }
+    .section-top li {
+        flex-basis: 25em;
+    }
 }

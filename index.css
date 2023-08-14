@@ -30,10 +30,10 @@
     position: absolute;
     top: -2em;
 }
-.container {
-    padding-left: 1em;
-    padding-right: 1em;
-}
 h3 {
     color: hsl(var(--very-dark-blue))
+}
+main {
+    display: grid;
+    row-gap: 2em;
 }

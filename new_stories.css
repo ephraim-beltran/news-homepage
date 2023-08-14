@@ -1,5 +1,5 @@
 .section-new {
-    background-color: hsl(var(--very-dark-blue));
+    background-color: var(--very-dark-blue);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 .section-new h2 {
     font-size: 32px;
-    color: hsl(var(--soft-orange));
+    color: var(--soft-orange);
     margin-top: 0.6em;
     margin-bottom: 0.6em;
 }
@@ -20,20 +20,20 @@
     padding-top: 1em;
 }
 .section-new > article:not(:first-child, :last-child) {
-    border-bottom: 1px solid hsl(var(--dark-grayish-blue));
+    border-bottom: 1px solid var(--dark-grayish-blue);
 }
 .section-new h3 {
-    color: hsl(var(--off-white));
+    color: var(--off-white);
     font-size: 1.3em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 .section-new a:hover {
-    color: hsl(var(--soft-orange));
+    color: var(--soft-orange);
 }
 .section-new p {
     line-height: 1.5em;
-    color: hsl(var(--off-white));
+    color: var(--off-white);
 }
 
 @media only screen and (min-width: 601px) {

@@ -30,14 +30,14 @@ nav {
     justify-content: flex-end;
 }
 nav a:hover {
-    color: hsl(var(--soft-red));
+    color: var(--soft-red);
 }
 nav > ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     row-gap: 1.5em;
-    background-color: hsl(var(--off-white));
+    background-color: var(--off-white);
     height: 100%;
     width: 68%;
     padding-top: 8em;

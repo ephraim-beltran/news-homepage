@@ -3,19 +3,19 @@
     
     /* HSL Colour variables */
     /* Primary */
-    --soft-orange: 35, 77%, 62%;
-    --soft-red: 5, 85%, 63%;
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
     
     /* Neutral */
-    --off-white: 36, 100%, 99%;
-    --grayish-blue: 233, 8%, 79%;
-    --dark-grayish-blue: 236, 13%, 42%;
-    --very-dark-blue: 240, 100%, 5%;
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
     
     /* Typography */
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    color: hsl(var(--dark-grayish-blue));
+    color: var(--dark-grayish-blue);
 }
 * {
     margin: 0;
@@ -23,7 +23,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(var(--off-white));
+    background-color: var(--off-white);
 }
 .hidden {
     display: none;
@@ -40,7 +40,7 @@ body {
     margin-bottom: 1em;
 }
 h3 {
-    color: hsl(var(--very-dark-blue))
+    color: var(--very-dark-blue)
 }
 a, a:visited {
     font-style: inherit;

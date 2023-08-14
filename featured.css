@@ -20,7 +20,7 @@
     line-height: 1.7em;
 }
 .section-featured a:hover {
-    background-color: hsl(var(--very-dark-blue)) !important;
+    background-color: var(--very-dark-blue) !important;
 }
 .section-featured :is(a, a:visited) {
     margin-top: 2em;
@@ -28,8 +28,8 @@
     padding: 1em 2em;
     text-transform: uppercase;
     font-weight: 700;
-    color: hsl(var(--off-white));
-    background-color: hsl(var(--soft-red));
+    color: var(--off-white);
+    background-color: var(--soft-red);
     border: none;
     text-decoration: none;
     letter-spacing: 0.25em;

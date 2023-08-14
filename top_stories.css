@@ -1,0 +1,41 @@
+.article-top {
+    margin-top: 2.3em;
+}
+.article-top ol {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    counter-reset: rank;
+    list-style-type: none;
+}
+.section-list > ol article::before {
+    content: "0" counter(rank);
+    counter-increment: rank;
+    color: hsl(var(--grayish-blue));
+    font-weight: 700;
+    font-size: 2em;
+    grid-area: counter;
+}
+.small-card-with-image {
+    display: grid;
+    grid-template: 
+    "image counter"
+    "image heading"
+    "image text";
+    grid-template-columns: 6.7em auto;
+    column-gap: 1.7em;
+    row-gap: 0.7em;
+    }
+.small-card-with-image h3 {
+    grid-area: heading;
+    font-weight: 700;
+    font-size: 1.2em;
+    } 
+.small-card-with-image p {
+    grid-area: text;
+    line-height: 1.7em;
+}
+.small-card-with-image img {
+    grid-area: image;
+    width: 100%;
+}

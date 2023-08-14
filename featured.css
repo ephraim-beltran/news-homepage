@@ -42,7 +42,6 @@
             "title link";
         grid-template-columns: 38ch auto;
         padding-top: 1.7em;
-        padding-bottom: 1.7em;
         column-gap: 1.5em;
     }
     .section-featured h3 {
@@ -55,5 +54,6 @@
     }
     .section-featured a {
         grid-area: link;
+        margin-bottom: 0 !important;
     }
 }

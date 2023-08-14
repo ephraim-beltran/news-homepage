@@ -22,6 +22,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: hsl(var(--off-white));
+}
 .hidden {
     display: none;
 }
@@ -42,4 +45,53 @@ h3 {
 main {
     display: grid;
     row-gap: 2em;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        margin-top: 5em !important;
+        margin-bottom: 2.6em !important;
+    }
+    .site-title img {
+        height: 42px !important;
+    }
+    #nav-icon {
+        display: none;
+    }
+    #navigation {
+        display:contents;
+    }
+    #navigation ul {
+        flex-direction: row;
+        padding: 0;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 1.65em;
+    }
+    main {
+        grid-template: 
+            "featured new"
+            "top      top";
+        grid-template-columns: 48.7rem auto;
+        column-gap: 2rem;
+    }
+    .section-featured {
+        grid-area: featured;
+    }
+    .section-new {
+        grid-area: new;
+    }
+    .section-top {
+        grid-area: top;
+    }
 }
